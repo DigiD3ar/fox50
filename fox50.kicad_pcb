@@ -5,7 +5,7 @@
     (drawings 0)
     (tracks 0)
     (modules 97)
-    (nets 78)
+    (nets 91)
   )
 
   (paper "A3")
@@ -143,6 +143,19 @@
   (net 75 "Net-(U1-Pad3)")
   (net 76 "Net-(U1-Pad2)")
   (net 77 "Net-(U1-Pad1)")
+  (net 78 "col2")
+  (net 79 "col3")
+  (net 80 "col4")
+  (net 81 "col5")
+  (net 82 "col6")
+  (net 83 "col7")
+  (net 84 "col8")
+  (net 85 "col9")
+  (net 86 "col10")
+  (net 87 "col11")
+  (net 88 "col12")
+  (net 89 "col13")
+  (net 90 "col14")
 
   (module "keyboard_parts:D_SOD123_axial" (layer "B.Cu") (tedit 561B6A12) (tstamp 84c4a3b4-cdf8-4627-809a-6b75a8c5f10d)
     (at 296.06875 24.60625 -90)
@@ -2148,7 +2161,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 51 "Net-(D47-Pad2)") (pinfunction "ROW") (tstamp 22e6fde9-627e-4e41-b007-bd313843eb20))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 3142e614-7147-4fdc-b7fd-aa3db9326b6e))
+      (net 89 "col13") (pinfunction "COL") (tstamp 3142e614-7147-4fdc-b7fd-aa3db9326b6e))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2196,7 +2209,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 50 "Net-(D46-Pad2)") (pinfunction "ROW") (tstamp 7adff466-2806-4442-9a19-43e352ada217))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp c90de712-d5fa-49da-bd5e-b8294de9b436))
+      (net 89 "col13") (pinfunction "COL") (tstamp c90de712-d5fa-49da-bd5e-b8294de9b436))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2240,7 +2253,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 52 "Net-(D48-Pad2)") (pinfunction "ROW") (tstamp 5c1f5e33-2d6a-4fa0-8c20-bb6ed943c79a))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp dcb1065a-c40d-4f17-87d6-72f0f1349f85))
+      (net 90 "col14") (pinfunction "COL") (tstamp dcb1065a-c40d-4f17-87d6-72f0f1349f85))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2284,7 +2297,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 49 "Net-(D45-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 89 "col13") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2328,7 +2341,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 36 "Net-(D32-Pad2)") (pinfunction "ROW") (tstamp d18c5a12-301e-40de-bac5-ad54bc3f29d6))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 8ffc350c-02d7-4c52-b13e-31a123949dc9))
+      (net 89 "col13") (pinfunction "COL") (tstamp 8ffc350c-02d7-4c52-b13e-31a123949dc9))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2372,7 +2385,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 28 "Net-(D24-Pad2)") (pinfunction "ROW") (tstamp d18c5a12-301e-40de-bac5-ad54bc3f29d6))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 8ffc350c-02d7-4c52-b13e-31a123949dc9))
+      (net 87 "col11") (pinfunction "COL") (tstamp 8ffc350c-02d7-4c52-b13e-31a123949dc9))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2420,7 +2433,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 24 "Net-(D20-Pad2)") (pinfunction "ROW") (tstamp b5b7482d-6d00-4743-a7db-1e7bd9080372))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 6f6b4c7d-e9ce-421f-b2b7-46b7b102ba79))
+      (net 81 "col5") (pinfunction "COL") (tstamp 6f6b4c7d-e9ce-421f-b2b7-46b7b102ba79))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2464,7 +2477,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 20 "Net-(D16-Pad2)") (pinfunction "ROW") (tstamp d18c5a12-301e-40de-bac5-ad54bc3f29d6))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 8ffc350c-02d7-4c52-b13e-31a123949dc9))
+      (net 80 "col4") (pinfunction "COL") (tstamp 8ffc350c-02d7-4c52-b13e-31a123949dc9))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2508,7 +2521,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 9 "Net-(D5-Pad2)") (pinfunction "ROW") (tstamp 5c1f5e33-2d6a-4fa0-8c20-bb6ed943c79a))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp dcb1065a-c40d-4f17-87d6-72f0f1349f85))
+      (net 78 "col2") (pinfunction "COL") (tstamp dcb1065a-c40d-4f17-87d6-72f0f1349f85))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2552,7 +2565,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 12 "Net-(D8-Pad2)") (pinfunction "ROW") (tstamp d18c5a12-301e-40de-bac5-ad54bc3f29d6))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 8ffc350c-02d7-4c52-b13e-31a123949dc9))
+      (net 78 "col2") (pinfunction "COL") (tstamp 8ffc350c-02d7-4c52-b13e-31a123949dc9))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2600,7 +2613,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 11 "Net-(D7-Pad2)") (pinfunction "ROW") (tstamp 7adff466-2806-4442-9a19-43e352ada217))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp c90de712-d5fa-49da-bd5e-b8294de9b436))
+      (net 78 "col2") (pinfunction "COL") (tstamp c90de712-d5fa-49da-bd5e-b8294de9b436))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2644,7 +2657,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 10 "Net-(D6-Pad2)") (pinfunction "ROW") (tstamp 22e6fde9-627e-4e41-b007-bd313843eb20))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 3142e614-7147-4fdc-b7fd-aa3db9326b6e))
+      (net 78 "col2") (pinfunction "COL") (tstamp 3142e614-7147-4fdc-b7fd-aa3db9326b6e))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2757,7 +2770,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 48 "Net-(D44-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 88 "col12") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2801,7 +2814,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 47 "Net-(D43-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 88 "col12") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2845,7 +2858,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 46 "Net-(D42-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 88 "col12") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2889,7 +2902,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 45 "Net-(D41-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 87 "col11") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2933,7 +2946,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 44 "Net-(D40-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 87 "col11") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2977,7 +2990,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 43 "Net-(D39-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 87 "col11") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3021,7 +3034,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 42 "Net-(D38-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 86 "col10") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3065,7 +3078,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 41 "Net-(D37-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 86 "col10") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3109,7 +3122,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 40 "Net-(D36-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 86 "col10") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3153,7 +3166,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 39 "Net-(D35-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 85 "col9") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3197,7 +3210,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 38 "Net-(D34-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 85 "col9") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3241,7 +3254,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 37 "Net-(D33-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 85 "col9") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3285,7 +3298,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 35 "Net-(D31-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 84 "col8") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3329,7 +3342,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 34 "Net-(D30-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 84 "col8") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3373,7 +3386,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 33 "Net-(D29-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 84 "col8") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3417,7 +3430,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 32 "Net-(D28-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 88 "col12") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3461,7 +3474,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 31 "Net-(D27-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 83 "col7") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3505,7 +3518,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 30 "Net-(D26-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 83 "col7") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3549,7 +3562,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 29 "Net-(D25-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 83 "col7") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3593,7 +3606,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 27 "Net-(D23-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 82 "col6") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3637,7 +3650,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 26 "Net-(D22-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 82 "col6") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3681,7 +3694,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 25 "Net-(D21-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 82 "col6") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3725,7 +3738,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 23 "Net-(D19-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 81 "col5") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3769,7 +3782,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 22 "Net-(D18-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 81 "col5") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3813,7 +3826,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 21 "Net-(D17-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 81 "col5") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3857,7 +3870,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 19 "Net-(D15-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 80 "col4") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3901,7 +3914,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 18 "Net-(D14-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 80 "col4") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3945,7 +3958,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 17 "Net-(D13-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 80 "col4") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -3989,7 +4002,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 16 "Net-(D12-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 79 "col3") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4033,7 +4046,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 15 "Net-(D11-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 79 "col3") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4077,7 +4090,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 14 "Net-(D10-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 79 "col3") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4121,7 +4134,7 @@
     (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
       (net 13 "Net-(D9-Pad2)") (pinfunction "ROW") (tstamp ff31dc3f-0d6c-4c7e-b88f-9d03940e85cc))
     (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask)
-      (net 53 "col1") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
+      (net 79 "col3") (pinfunction "COL") (tstamp 546243c1-8342-4586-8fde-09f748e09de5))
     (model "${KISYS3DMOD}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
