@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 8)
     (tracks 78)
     (modules 97)
     (nets 91)
@@ -4317,6 +4317,15 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_arc (start 302 15.5) (end 302.5 15.5) (angle -90) (layer "Edge.Cuts") (width 0.1) (tstamp 8fc0c252-117b-4362-829f-80de5785bcbd))
+  (gr_arc (start 302 92.5) (end 302 93) (angle -90) (layer "Edge.Cuts") (width 0.1) (tstamp 432ff1c3-4e82-4cc3-8e17-f0b687cfcd09))
+  (gr_arc (start 15.5 92.5) (end 15 92.5) (angle -90) (layer "Edge.Cuts") (width 0.1) (tstamp 98da3f6b-6a89-414a-af6c-ce885ae1d243))
+  (gr_arc (start 15.5 15.5) (end 15.5 15) (angle -90) (layer "Edge.Cuts") (width 0.1) (tstamp d1bb2bd0-4d4e-400a-aff6-aad74da5a5aa))
+  (gr_line (start 302 15) (end 15.5 15) (layer "Edge.Cuts") (width 0.1) (tstamp 2f9628d5-492e-4261-a2e5-eab7c2e755da))
+  (gr_line (start 302.5 92.5) (end 302.5 15.5) (layer "Edge.Cuts") (width 0.1) (tstamp 2400fff3-3535-4856-b395-031cf2c1bfc3))
+  (gr_line (start 15.5 93) (end 302 93) (layer "Edge.Cuts") (width 0.1) (tstamp a5d9e44c-be8f-4ad8-a37c-12a136c30a4b))
+  (gr_line (start 15 15.5) (end 15 92.5) (layer "Edge.Cuts") (width 0.1) (tstamp 7892272b-f737-4fe9-b1c3-d0898d177c39))
 
   (segment (start 137.4775 39.37) (end 137.4775 48.895) (width 0.25) (layer "F.Cu") (net 82) (tstamp a36fca4d-5e17-4bac-8a7e-d6a5b2b50352))
   (segment (start 137.4775 48.895) (end 147.0025 58.42) (width 0.25) (layer "F.Cu") (net 82) (tstamp 836cacfd-73b0-4ba5-a249-b4ee5a575a7b))
